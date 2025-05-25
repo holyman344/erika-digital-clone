@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ErikainDigital Clone
+
+Clone of ErikainDigital Stan Store - Digital products showcase website built with Next.js and Tailwind CSS.
+
+## Overview
+
+This is a complete clone of the ErikainDigital Stan Store website, featuring:
+- Responsive design matching the original layout
+- Product showcase grid with digital products
+- Social media integration
+- Modern UI built with Next.js and Tailwind CSS
+
+## Technologies Used
+
+- **Next.js 15** - React framework with App Router
+- **Tailwind CSS** - Utility-first CSS framework
+- **TypeScript** - Type-safe JavaScript
+- **shadcn/ui** - UI component library
+- **Bun** - Fast package manager and runtime
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
+```
+
+Then, run the development server:
+
+```bash
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/page.tsx` - Main homepage component
+- `src/app/globals.css` - Global styles and fonts
+- `next.config.js` - Next.js configuration with image domains
+- `tailwind.config.ts` - Tailwind CSS configuration
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- 📱 Fully responsive design
+- 🎨 Pixel-perfect recreation of the original design
+- 🖼️ Optimized image loading
+- ⚡ Fast performance with Next.js
+- 🎯 SEO-friendly structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is configured for static export and can be deployed to any static hosting platform:
 
-## Deploy on Vercel
+```bash
+bun run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The built files will be in the `out/` directory.
