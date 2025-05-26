@@ -70,7 +70,8 @@ export default function Home() {
               </div>
               <button className="w-full bg-[#bdb2ae] hover:bg-[#a39893] text-[#363333] py-2 px-4 rounded transition-colors">
                 Scopri di più
-              </button>
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+<a href="https://www.stackoverflow.com" class="button is-primary">Stack Overflow</a></button>
             </div>
           </div>
 
